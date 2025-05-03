@@ -1,0 +1,53 @@
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> cd C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/03     11:00                git_challenge
+
+
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4> cd C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git init
+Initialized empty Git repository in C:/Users/makiy/OneDrive/デスクトップ/侍エンジニア/test/test4/git_challenge/.git/
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> echo "hello, world!" >> hello_world.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git commit -m "hello_world.txtの追加"
+[main (root-commit) e10660c] hello_world.txtの追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git commit -m "日本語訳の追記"
+[main d7ef626] 日本語訳の追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> git log --oneline
+d7ef626 (HEAD -> main) 日本語訳の追記
+e10660c hello_world.txtの追加
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/03     11:11                kadai_005
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005> git commit -m "kadai_005.txtの作成"
+[main 9f4e7bf] kadai_005.txtの作成
+ 2 files changed, 38 insertions(+)
+ create mode 100644 kadai_005/kadai_005-2.txt
+ create mode 100644 kadai_005/kadai_005.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005> git rm kadai_005-2.txt
+rm 'kadai_005/kadai_005-2.txt'
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005> git commit -m "kadai_005-2の削除、kadai_005.txtの更新"
+
+[main 17816a3] kadai_005-2の削除、kadai_005.txtの更新
+ 2 files changed, 38 insertions(+), 38 deletions(-)
+ delete mode 100644 kadai_005/kadai_005-2.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4\git_challenge\kadai_005>
