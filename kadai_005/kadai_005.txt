@@ -1,0 +1,63 @@
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> cd C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> mkdir test4        
+
+
+    ディレクトリ: C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/03     10:18                test4
+
+
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> cd test4
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\test4> git init
+Initialized empty Git repository in C:/Users/makiy/OneDrive/デスクトップ/侍エンジニア/test/test4/.git/
+
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> pwd
+
+Path
+----
+C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test
+
+
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> mv test4 git_challenge
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> cd git_challenge
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> Remove-Item -Recurse -Force test4
+>>
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) ea37f69] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git add .
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git commit -m "2回目のコミット"
+[main a52d4bf] 2回目のコミット
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> git log --oneline
+a52d4bf (HEAD -> main) 2回目のコミット
+ea37f69 1回目のコミット
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test\git_challenge> cd C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/05/03     10:42                kadai_005
+
+
+PS C:\Users\makiy\OneDrive\デスクトップ\侍エンジニア\test>
